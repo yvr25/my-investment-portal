@@ -64,13 +64,11 @@ export default function UserPage() {
           {/* LEFT PANEL */}
           <Card className="rounded-2xl shadow-lg shadow-black/75">
             <CardHeader>
-              <CardTitle className="text-xl">User</CardTitle>
+              <CardTitle className="text-xl">Add user account</CardTitle>
             </CardHeader>
 
             <CardContent className="space-y-5">
-              <h4 className="text-lg font-semibold">
-                Add user account
-              </h4>
+              
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
@@ -89,7 +87,7 @@ export default function UserPage() {
                   onValueChange={setSelectedFiscalYear}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select Fiscal Year" />
+                    <SelectValue placeholder="Set permission level" />
                   </SelectTrigger>
                   <SelectContent>
                     {levels.map((item) => (

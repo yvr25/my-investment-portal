@@ -83,7 +83,7 @@ export default function CashBook() {
         <div className="pt-2 px-6 grid grid-cols-1 lg:grid-cols-[35%_65%] gap-4">
 
           {/* LEFT PANEL */}
-          <Card className="rounded-2xl shadow-lg shadow-black/50">
+          <Card className="rounded-2xl shadow-lg shadow-black/50 mb-4">
             <CardHeader>
               <CardTitle className="text-xl">Cash Book</CardTitle>
             </CardHeader>
@@ -145,7 +145,7 @@ export default function CashBook() {
           </Card>
 
           {/* RIGHT PANEL */}
-          <Card className="rounded-2xl shadow-lg shadow-black/50">
+          <Card className="rounded-2xl shadow-lg shadow-black/50 mb-4">
             <CardHeader>
               <CardTitle className="text-xl">
                 2023-05-05 | Credit | Cash In Hand: ₹500002 DR | Total: ₹2 DR

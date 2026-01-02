@@ -64,13 +64,11 @@ export default function FiscalYear() {
           {/* LEFT PANEL */}
           <Card className="rounded-2xl shadow-lg shadow-black/75">
             <CardHeader>
-              <CardTitle className="text-xl">User</CardTitle>
+              <CardTitle className="text-xl">Add New Fiscal Year</CardTitle>
             </CardHeader>
 
             <CardContent className="space-y-5">
-              <h4 className="text-lg font-semibold">
-                Add New Fiscal Year
-              </h4>
+              
 
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">

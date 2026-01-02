@@ -84,7 +84,7 @@ export default function JournalVoucher() {
         <div className="pt-2 px-6 grid grid-cols-1 lg:grid-cols-[35%_65%] gap-4">
 
           {/* LEFT PANEL */}
-          <Card className="rounded-2xl shadow-lg shadow-black/50">
+          <Card className="rounded-2xl shadow-lg shadow-black/50 mb-4">
             <CardHeader>
               <CardTitle className="text-xl">Journal Voucher</CardTitle>
             </CardHeader>
@@ -146,7 +146,7 @@ export default function JournalVoucher() {
           </Card>
 
           {/* RIGHT PANEL */}
-          <Card className="rounded-2xl shadow-lg shadow-black/50">
+          <Card className="rounded-2xl shadow-lg shadow-black/50 mb-4">
             <CardHeader>
               <CardTitle className="text-xl">
                 Journal Voucher Entries
